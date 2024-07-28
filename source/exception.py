@@ -1,5 +1,5 @@
 import sys
-from source.logger import logging
+from source.logger import logging  
 
 # Configure the logger
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
